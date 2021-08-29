@@ -1,0 +1,57 @@
+*{
+	box-sizing: border-box;
+	border:0px;
+	margin:0px;
+}
+.back{
+
+	background:black;
+	width: 350px;
+	height: 450px;
+	border:1px solid black;
+	margin-top: 45px;
+}
+.box{
+	position: absolute;
+	top:0%;
+	left:39%;
+	background: white;
+	width: 300px;
+	height: 350px;
+	border:1px solid black;
+	margin-top: 60px;
+
+}
+.title
+{
+	position: absolute;
+	left: 41%;
+	top:10%;
+	color: red;
+
+}
+.num
+{
+	position: absolute;
+	left: 47%;
+	top:20%;
+	font-size: 50px;
+
+
+}
+button
+{
+	position: absolute;
+	left: 46%;
+	top:40%;
+	width: 85px;
+	height: 45px;
+	border-radius: 65px;
+	background-color: red;
+
+}
+button:hover
+{
+	background-color: yellow;
+	color:blue;
+}
